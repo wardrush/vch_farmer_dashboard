@@ -233,3 +233,9 @@ Thumbs.db
 
 # Editor
 .vscode/
+
+# The Python "Distribution / packaging" block above ignores a bare `lib/`
+# (Python's site-packages convention), which also matches web/src/lib/ —
+# un-ignore our actual source directory.
+!web/src/lib/
+!web/src/lib/**
