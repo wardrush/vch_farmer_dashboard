@@ -7,6 +7,12 @@
 [functions]
   node_bundler = "esbuild"
 
+# functions/ has its own package.json (@netlify/blobs); this plugin installs
+# it before bundling — Netlify doesn't do so automatically for a nested
+# functions directory.
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
+
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
