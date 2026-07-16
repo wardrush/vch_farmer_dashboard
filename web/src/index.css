@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-sand-900;
+    background:
+      radial-gradient(circle at 12% 20%, rgba(255, 255, 255, 0.92), transparent 38%),
+      radial-gradient(circle at 90% 12%, rgba(198, 219, 181, 0.55), transparent 42%),
+      linear-gradient(132deg, #f7f1e5, #ece1cd 46%, #f4ecd9);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-bold text-sand-950;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer components {
+  .vch-card {
+    @apply space-y-6 rounded-3xl border border-sand-300 bg-white/95 p-6;
+  }
+
+  .vch-btn-primary {
+    @apply rounded-full bg-gold-700 px-5 py-2 font-semibold text-white transition hover:bg-gold-800 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .vch-btn-secondary {
+    @apply rounded-xl border border-sand-400 px-5 py-2 font-semibold text-sand-700 transition hover:bg-sand-100;
+  }
+
+  .vch-input {
+    @apply rounded-xl border border-sand-400 bg-white px-4 py-3 text-sand-900 focus:outline-none focus:ring-2 focus:ring-gold-700/40;
+  }
+
+  .vch-callout {
+    @apply rounded-2xl border-l-4 border-gold-700 bg-sand-100 p-4 text-sm text-sand-900;
+  }
+
+  .vch-demo-badge {
+    @apply inline-flex items-center rounded-full bg-sand-200 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-sand-700;
+  }
+}
+
+.pill-pulse {
+  animation: pill-pulse 2.2s ease-in-out infinite;
+}
+
+@keyframes pill-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(166, 124, 23, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(166, 124, 23, 0);
+  }
+}
+
+.maplibregl-popup-content {
+  @apply rounded-2xl border border-sand-300 p-0 font-sans shadow-lg;
+}
+
+.maplibregl-ctrl-attrib {
+  @apply text-[10px];
+}

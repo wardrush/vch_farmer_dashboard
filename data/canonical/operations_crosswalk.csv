@@ -1,0 +1,56 @@
+op_code,op_label,entity_name,last_busin_variants,samples_customer_variants,samples_farm_business_variants,farmer_table_name,distributor_enrollment_ids,region,state,enrollment_year,enroll_origin,notes,resolution
+24-02,Swenson Grain & Cattle,Swenson Grain & Cattle,Swenson Grain & Cattle,Joseph Swenson,Swenson Grain & Cattle,Swenson Grain & Cattle,,MN,MN,2025,2024_reenrolled,,auto_exact
+24-03,John Fields,John Fields,John Fields|Region 2 Project 2|Region 2 Project 2 Sampled,John Field,John Field|John Fields,John Fields,,ND_E,,2025,2024_reenrolled,,auto_exact
+24-04,Hoverson Brothers,Hoverson Brothers,Aa|Hoverson Brothers|Veterans Carbon Holdings,Hoverson Brothers,Hoverson Brothers,Hoverson Brothers,,ND_E,ND,2025,2024_reenrolled,,auto_exact
+24-05,Hong Farms,Hong Farms,Hong|Region 4 Project 4|Region 4.1,Hong Farms (Curt & Chris Hong),Hong|Hong Farms (Curt & Chris Hong)|RSK INC|Region 4.1,Hong Farms,,ND_E,,2025,2024_reenrolled,,auto_exact
+24-06,Chase Elliott,Chase Elliott,Chase Elliott|Region 5 Project 5|Region 5 Project 5 Sampled,Chase Elliott,Region 5 Project 5 Sampled,Chase Elliott,,ND_E,,2025,2024_reenrolled,,auto_exact
+24-07,Fugleberg Farms,Fugleberg Farms,F Farms|Fugleberg Farms|Region 5 Project 5,Fulgelberg Farms,Fugleberg Farms,Fugleberg Farms,,ND_E,,2025,2024_reenrolled,,auto_exact
+24-08,James Aarsvold,James Aarsvold,James Aarsvold|Region 5 Project 5,James Aarsvold,Region 5 Project 5 Sampled,James Aarsvold,,ND_E,,2025,2024_reenrolled,,auto_exact
+24-09,Brent Kohls,Brent Kohls,Brent Kohls|Region 6 Project 6,Kohls Farms Inc.,Brent Kohls,Brent Kohls,,ND_E,,2025,2024_reenrolled,,auto_exact
+24-10,Ross Johnson - RNR Johnson Farms,Ross Johnson - RNR Johnson Farms,Region 6 Project 6|Ross Johnson - RNR Johnson Farms,Ross Johnson,Ross Johnson - RNR Johnson Farms,Ross Johnson - RNR Johnson Farms,,ND_E,,2025,2024_reenrolled,,auto_exact
+24-11,Kyllo - Braaten - Braaten,Kyllo - Braaten - Braaten,Cory Braaten|RSK INC|RT Farms & Trucking Inc|Region 6 Project 6,Shane Kyllo / Braaten / Bratten,RSK INC,Kyllo - Braaten - Braaten,,ND_E,ND,2025,2024_reenrolled,,auto_exact
+24-12,Shawn Knudson,Shawn Knudson,Region 5 Project 5|Region 6 Project 6|Shawn Knudson,Shawn Knutson,Shawn Knudson,Shawn Knudson,,ND_E,ND,2025,2024_reenrolled,,auto_exact
+24-13,Tim & Randy Garrett,Tim & Randy Garrett,2023 Test Trials|Region 6 Project 6|Region 6 Project 6 Sampled|Tim & Randy Garrett,Tim & Randy Garrett,Tim & Randy Garrett,Tim & Randy Garrett,,ND_E,,2025,2024_reenrolled,,auto_exact
+24-14,Schatzke Farms,Schatzke Farms,Schatzke Farms,Jace Schatzke (Schatzke Farms),Schatzke Farms,Schatzke Farms,,ND_E,,2025,2024_reenrolled,,auto_exact
+24-15,J & J Roesler Farms - Jason Roesler,J & J Roesler Farms - Jason Roesler,J & J Roesler Farms - Jason Roesler|Schatzke Farms,Jason Rossler,Region 7 Project 7 Sampled,J & J Roesler Farms - Jason Roesler,,ND_E,,2025,2024_reenrolled,,auto_exact
+24-16,Mark Arrenson,Mark Arrenson,Mark Arrenson|R 8 P 8 T|Region 1 Project 1|Region 8 Project 8|Stuart Eeg,,,Mark Arrenson,,MN,MN,2025,2024_reenrolled,,auto_exact
+24-17,Ben Bring,Ben Bring,Ben Bring New,Ben Bring,Ben Bring|Ben Bring New,Ben Bring,,ND_E,,2025,2024_reenrolled,,auto_exact
+24-18,Eeg Brothers,Eeg Brothers,,Stuart Eeg (Eeg Brothers),Stuart Eeg,Stuart Eeg (Eeg Brothers),,ND_E,ND,2024,2024_reenrolled,"Late add 2026-07-10; ground under LAST_BUSIN='Stuart Eeg' in this gpkg snapshot is pre-existing acreage already counted under Mark Arnesen (24-16) — do not double count. His farmer-table creditable acres cover 47 fields added after this gpkg export, so no field geometries exist for this op_code in the current dataset.",manual
+25-16,Acres Away AG LLC,Acres Away AG LLC,Acres Away AG LLC,Acres Away AG LLC,Acres Away AG LLC,Acres Away AG LLC,,ND_W,,2025,2025_new,,auto_exact
+25-17,Alex Engelstad,Alex Engelstad,Alex Engelstad,Alex Engelstad,Alex Engelstad|Paul Engelstad,Alex Engelstad,,ND_E,,2025,2025_new,,auto_exact
+25-18,Alliance Farms,Alliance Farms,Alliance Farms,Alliance Farms (Jangula),Alliance Farms,Alliance Farms,,ND_W,,2025,2025_new,,auto_exact
+25-19,Billy & Brad Fisher,Billy & Brad Fisher,Billy & Brad Fisher,Bill & Brad Fisher,Billy & Brad Fisher,Billy & Brad Fisher,,ND_W,,2025,2025_new,,auto_exact
+25-20,Brandon Down,Brandon Down,Brandon Down,Brandon Downs,Brandon Down,Brandon Down,,ND_W,,2025,2025_new,,auto_exact
+25-21,Brandon Hamre Farms,Brandon Hamre Farms,Brandon Hamre Farms,Brandon Hamre Farms,Brandon Hamre Farms,Brandon Hamre Farms,,ND_E,,2025,2025_new,,auto_exact
+25-22,Brent Petersen,Brent Petersen,Brent Petersen|Drew Petersen,Brent Petersen,Brent Petersen,Brent Petersen,,ND_W,,2025,2025_new,,auto_exact
+25-23,Brian Tofteland,Brian Tofteland,Brian Toftela,Brian Tofteland,Brian Toftela,Brian Tofteland,,ND_W,,2025,2025_new,,auto_exact
+25-24,Brock Mitchell,Brock Mitchell,Brock Mitchell,Brock Mitchell,Brock Mitchell,Brock Mitchell,,ND_W,,2025,2025_new,,auto_exact
+25-25,Brody & Nick Cahill,Brody & Nick Cahill,Brody & Nick Cahill,Brody & Nick Cahill,Brody & Nick Cahill,Brody & Nick Cahill,,ND_W,,2025,2025_new,,auto_exact
+25-26,Byron Rohr,Byron Rohr,Byron Rohr,Byron Rohr,Byron Rohr,Byron Rohr,,ND_E,,2025,2025_new,,auto_exact
+25-27,Chas Tofteland,Chas Tofteland,Chas Tofteland,Chas Tofteland,Chas Tofteland,Chas Tofteland,,ND_W,,2025,2025_new,,auto_exact
+25-28,Cole Dimmler,Cole Dimmler,Cole Dimmler,Cole Dimmler,Cole Dimmler,Cole Dimmler,,ND_W,,2025,2025_new,,auto_exact
+25-29,Colter Thorp,Colter Thorp,Colter Thorp|Tony Nordin,Colter Thorp,Colter Thorp,Colter Thorp,,ND_W,,2025,2025_new,,auto_exact
+25-30,Dan Pfeifle,Dan Pfeifle,DAN PFEIFLE,Dan Pfeifle,DAN PFEIFLE,Dan Pfeifle,,ND_W,,2025,2025_new,,auto_exact
+25-31,Don Suda,Don Suda,Don Suda,Don Suda,Don Suda,Don Suda,,ND_E,,2025,2025_new,,auto_exact
+25-32,Doug Erickstad,Doug Erickstad,Doug Erickstad,Doug Erickstad,Doug Erickstad,Doug Erickstad,,ND_W,,2025,2025_new,,auto_exact
+25-33,Doug Ginther,Doug Ginther,Doug Ginther,Doug Ginther,Doug Ginther,Doug Ginther,,ND_W,,2025,2025_new,,auto_exact
+25-34,Drew Petersen,Drew Petersen,Drew Petersen,Drew Petersen,Drew Petersen,Drew Petersen,,ND_W,,2025,2025_new,,auto_exact
+25-35,Duane & Dustin Hendrickson,Duane & Dustin Hendrickson,Duane & Dustin Hendrickson,Duane & Dustin Hendrickson,Duane & Dustin Hendrickson,Duane & Dustin Hendrickson,,ND_W,,2025,2025_new,,auto_exact
+25-36,Eric Jacobson,Eric Jacobson,Eric Jacobson,Eric Jacobson,Eric Jacobson,Eric Jacobson,,ND_W,,2025,2025_new,,auto_exact
+25-37,Ferebee Crops & Cattle LLC,Ferebee Crops & Cattle LLC,Ferebee Crops & Cattle LLC,Ferebee Crops & Cattle LLC,Ferebee Crops & Cattle LLC,Ferebee Crops & Cattle LLC,,ND_W,,2025,2025_new,,auto_exact
+25-38,Forest River Colony,Forest River Colony,Forest River Colony,Forest River Colony,Forest River Colony,Forest River Colony,,ND_E,,2025,2025_new,,auto_exact
+25-39,Jason Guss,Jason Guss,Jason Guss,Jason Guss,Jason Guss,Jason Guss,,ND_W,,2025,2025_new,,auto_exact
+25-40,Jordan Swanson,Jordan Swanson,JORDAN SWANSON,Jordan Swanson,JORDAN SWANSON,Jordan Swanson,,ND_W,,2025,2025_new,,auto_exact
+25-41,Justin Killoran,Justin Killoran,Justin Killoran,Justin Killoran,Justin Killoran,Justin Killoran,,ND_E,,2025,2025_new,,auto_exact
+25-42,Kristian Sorum,Kristian Sorum,,Kristian Sorum,K Sorum,Kristian Sorum,,ND_W,,2025,2025_new,,auto_exact
+25-43,Kyle Lorenz,Kyle Lorenz,Kyle Lorenz,Kyle Lorenz,Kyle Lorenz,Kyle Lorenz,,ND_E,,2025,2025_new,,auto_exact
+25-44,Maertens Farms,Maertens Farms,Maertens,Maertens Farms,Maertens,Maertens Farms,,ND_W,,2025,2025_new,,auto_exact
+25-45,Majeres Farms,Majeres Farms,Cade Majeres|MAJERES FARMS,Majeres Farms,MAJERES FARMS,Majeres Farms,,ND_W,,2025,2025_new,,auto_exact
+25-46,Paul Engelstad,Paul Engelstad,Paul Engelstad,Paul Engelstad,Paul Engelstad,Paul Engelstad,,ND_E,,2025,2025_new,,auto_exact
+25-47,Ron Hefta,Ron Hefta,Ron Hefta,Ron Hefta,Ron Hefta,Ron Hefta,,ND_E,,2025,2025_new,,auto_exact
+25-48,Scott & Luke Heffta,Scott & Luke Heffta,Scott & Luke Heffta,Scott & Luke Heffta,Scott & Luke Heffta,Scott & Luke Heffta,,ND_E,,2025,2025_new,,auto_exact
+25-49,Cose Farms,Cose Farms,Cose Farms,Sean Cose (Cose Farms),Cose Farms,Cose Farms,,ND_W,,2025,2025_new,,auto_exact
+25-50,Sumner Boschert,Sumner Boschert,Sumner Boschert,Sumner Boschert,Sumner Boschert,Sumner Boschert,,ND_W,,2025,2025_new,,auto_exact
+25-51,Tony Nordin,Tony Nordin,Tony Nordin,Tony Nordin,Tony Nordin,Tony Nordin,,ND_W,,2025,2025_new,,auto_exact
+25-52,Werner Farms,Werner Farms,WERNER FARMS,Werner Farms,WERNER FARMS,Werner Farms,,ND_W,,2025,2025_new,,auto_exact
+25-53,Zach Jacobson Z&Z Farms,Zach Jacobson Z&Z Farms,Zach Jacobson Z&Z Farms,Zach Jacobson (Z&Z Farms),Zach Jacobson (Z&Z Farms)|Zach Jacobson Z&Z Farms,Zach Jacobson Z&Z Farms,,ND_E,,2025,2025_new,,auto_exact
