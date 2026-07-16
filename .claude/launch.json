@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "vch-web-dev",
+      "runtimeExecutable": "C:\\Users\\wardr\\tools\\node\\node.exe",
+      "runtimeArgs": [
+        "C:\\Users\\wardr\\Proton Drive\\wardrushton\\My files\\Work\\Claude Cowork\\VCH\\2026-07-15_demo farmer dashboard\\web\\node_modules\\vite\\bin\\vite.js",
+        "C:\\Users\\wardr\\Proton Drive\\wardrushton\\My files\\Work\\Claude Cowork\\VCH\\2026-07-15_demo farmer dashboard\\web",
+        "--port",
+        "5173"
+      ],
+      "port": 5173
+    }
+  ]
+}

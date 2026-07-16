@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node
+node_modules/
+web/dist/
+web/tsconfig.tsbuildinfo
+functions/node_modules/
+npm-debug.log*
+
+# Netlify
+.netlify/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
