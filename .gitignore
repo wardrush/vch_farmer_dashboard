@@ -220,6 +220,7 @@ __marimo__/
 # Node
 node_modules/
 web/dist/
+web/.vite/
 web/tsconfig.tsbuildinfo
 functions/node_modules/
 npm-debug.log*
