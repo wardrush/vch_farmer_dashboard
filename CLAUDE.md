@@ -86,4 +86,5 @@ functions/               # Netlify Functions: status.ts, enrollments.ts
 | `specs/analyst-dashboard.md` | Analyst pages, exports + acceptance criteria |
 | `specs/admin.md` | Admin pages |
 | `specs/maps.md` | MapLibre layers, meta-box clustering, sample map |
+| `specs/sampling.md` | Soil sampling planner: stratification, point placement, sample-size model, manual editing, exports |
 | `DEMO_SCRIPT.md` | Which grower demonstrates which state |

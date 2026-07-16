@@ -6,7 +6,7 @@ import { StatCard } from "../../components/StatCard";
 import { MapInlay } from "../../components/MapInlay";
 import { useLiveOp, creditsSubmitted } from "../../lib/useLiveOp";
 import { getOpFieldsGeoJson } from "../../lib/api";
-import { MICRO_STAGES, MICRO_STAGE_LABEL, MICRO_STAGE_COPY } from "../../content/stageCopy";
+import { MICRO_STAGES, MICRO_STAGE_LABEL, MICRO_STAGE_SHORT, MICRO_STAGE_COPY } from "../../content/stageCopy";
 import { formatAcres, formatDate, formatTonnes } from "../../lib/format";
 
 const CARRIED_FROM_BASELINE_STAGES = new Set(["enrollment_began", "all_files_submitted", "maps_approved", "baseline_samples_requested", "baseline_sampling_completed"]);
@@ -44,10 +44,13 @@ export function FarmerProjectDetail() {
       <section className="vch-card mb-6">
         <StageTracker
           stageIds={[...MICRO_STAGES]}
-          labels={MICRO_STAGE_LABEL}
+          labels={MICRO_STAGE_SHORT}
+          fullLabels={MICRO_STAGE_LABEL}
           currentStage={project.micro_stage}
           size="micro"
           carriedFromBaseline={carriedFromBaseline}
+          copy={MICRO_STAGE_COPY}
+          showCaption={false}
         />
         <p className="text-sm text-sand-700">{MICRO_STAGE_COPY[project.micro_stage]}</p>
       </section>

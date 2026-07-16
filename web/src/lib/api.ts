@@ -7,6 +7,14 @@ import type {
   StatusEvent,
   StratJson,
 } from "../types";
+import type { SamplingIndexRow, StrataFile } from "./sampling";
+
+interface SamplingIndexFile {
+  generated_from: string;
+  demo_fabricated_elevation: boolean;
+  n_ops: number;
+  ops: SamplingIndexRow[];
+}
 
 // Matches functions/status.ts / functions/enrollments.ts — demo-grade only,
 // same posture as the PasswordGate (docs/ARCHITECTURE.md admin auth note).
@@ -27,6 +35,12 @@ export const getOpSamplesGeoJson = (opCode: string) => fetchJson<GeoJSON.Feature
 export const getProjectSummary = () => fetchJson<ProjectSummary>("/data/analyst/project/summary.json");
 export const getFieldsStatusGeoJson = () => fetchJson<GeoJSON.FeatureCollection>("/data/analyst/fields-status.web.geojson");
 export const getQa = () => fetchJson<QaJson>("/data/analyst/qa.json");
+
+// Sampling tool inputs (pipeline/sampling_artifacts.py)
+export const getSamplingIndex = () => fetchJson<SamplingIndexFile>("/data/sampling/index.json");
+export const getOpStrata = (opCode: string) => fetchJson<StrataFile>(`/data/sampling/ops/${opCode}/strata.json`);
+export const getOpStratFieldsGeoJson = (opCode: string) =>
+  fetchJson<GeoJSON.FeatureCollection>(`/data/sampling/ops/${opCode}/fields.strat.geojson`);
 
 // ---------------------------------------------------------------------------
 // Live status (docs/ARCHITECTURE.md): GET /api/status, POST /api/status/advance,
