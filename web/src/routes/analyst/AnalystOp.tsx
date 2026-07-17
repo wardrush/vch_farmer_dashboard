@@ -8,7 +8,7 @@ import { FilterChips } from "../../components/FilterChips";
 import { useLiveOp, creditsSubmitted } from "../../lib/useLiveOp";
 import { getOpFieldsGeoJson, getOpSamplesGeoJson, getOpStrat } from "../../lib/api";
 import { downloadText } from "../../lib/csv";
-import { MACRO_STAGES, MACRO_STAGE_LABEL, MICRO_STAGES, MICRO_STAGE_LABEL } from "../../content/stageCopy";
+import { MACRO_STAGES, MACRO_STAGE_LABEL, MACRO_STAGE_SHORT, MICRO_STAGES, MICRO_STAGE_LABEL, MICRO_STAGE_SHORT, MICRO_STAGE_COPY } from "../../content/stageCopy";
 import { formatAcres, formatNumber, formatTonnes } from "../../lib/format";
 import type { StratJson, SamplePointProperties } from "../../types";
 
@@ -88,8 +88,11 @@ export function AnalystOp() {
         </div>
 
         <section className="vch-card">
-          <StageTracker stageIds={[...MACRO_STAGES]} labels={MACRO_STAGE_LABEL} currentStage={profile.macro_stage} size="macro" />
-          <StageTracker stageIds={[...MICRO_STAGES]} labels={MICRO_STAGE_LABEL} currentStage={profile.current_micro_stage} size="micro" />
+          <StageTracker stageIds={[...MACRO_STAGES]} labels={MACRO_STAGE_SHORT} fullLabels={MACRO_STAGE_LABEL} currentStage={profile.macro_stage} size="macro" />
+          <StageTracker stageIds={[...MICRO_STAGES]} labels={MICRO_STAGE_SHORT} fullLabels={MICRO_STAGE_LABEL} currentStage={profile.current_micro_stage} size="micro" copy={MICRO_STAGE_COPY} />
+          <Link to={`/analyst/sampling?op=${profile.op_code}`} className="inline-flex items-center gap-1 text-sm font-semibold text-gold-800 hover:underline">
+            Plan soil sampling for this project →
+          </Link>
         </section>
 
         <div className="grid gap-6 lg:grid-cols-[55%_1fr]">

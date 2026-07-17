@@ -5,6 +5,7 @@ import { FarmerProjectDetail } from "./routes/farmer/FarmerProjectDetail";
 import { FarmerEnrollments } from "./routes/farmer/FarmerEnrollments";
 import { AnalystHome } from "./routes/analyst/AnalystHome";
 import { AnalystOp } from "./routes/analyst/AnalystOp";
+import { AnalystSampling } from "./routes/analyst/AnalystSampling";
 import { AnalystStatusMap } from "./routes/analyst/AnalystStatusMap";
 import { AnalystQa } from "./routes/analyst/AnalystQa";
 import { AdminStatus } from "./routes/admin/AdminStatus";
@@ -33,6 +34,14 @@ export default function App() {
           element={
             <PasswordGate area="analyst">
               <AnalystOp />
+            </PasswordGate>
+          }
+        />
+        <Route
+          path="/analyst/sampling"
+          element={
+            <PasswordGate area="analyst">
+              <AnalystSampling />
             </PasswordGate>
           }
         />

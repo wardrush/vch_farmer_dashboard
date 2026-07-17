@@ -39,6 +39,29 @@ export const MICRO_STAGE_LABEL: Record<MicroStage, string> = {
   credits_available: "Credits available",
 };
 
+// Short labels for the compact tracker nodes (full names live in *_LABEL,
+// shown on hover). Keep to ~1-2 words so 10 micro nodes stay legible.
+export const MICRO_STAGE_SHORT: Record<MicroStage, string> = {
+  enrollment_began: "Enrolled",
+  all_files_submitted: "Files in",
+  maps_approved: "Maps OK",
+  baseline_samples_requested: "Baseline req.",
+  baseline_sampling_completed: "Baseline done",
+  post_season_sampling_completed: "Post-season",
+  lab_data_received: "Lab data",
+  project_submitted: "Submitted",
+  project_validated: "Validated",
+  credits_available: "Credits",
+};
+
+export const MACRO_STAGE_SHORT: Record<MacroStage, string> = {
+  enrollment_submitted: "Enrolled",
+  baseline_gathered: "Baseline",
+  year1_completed: "Year 1",
+  year2_completed: "Year 2",
+  trueup_completed: "True-up",
+};
+
 export const MICRO_STAGE_COPY: Record<MicroStage, string> = {
   enrollment_began:
     "You're enrolled. Next, we'll collect your paperwork and get your fields on the map.",

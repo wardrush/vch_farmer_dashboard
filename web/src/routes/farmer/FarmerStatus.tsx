@@ -6,7 +6,7 @@ import { StatCard } from "../../components/StatCard";
 import { Callout } from "../../components/Callout";
 import { DemoBadge } from "../../components/DemoBadge";
 import { useLiveOp, creditsSubmitted } from "../../lib/useLiveOp";
-import { MACRO_STAGES, MACRO_STAGE_LABEL, MICRO_STAGES, MICRO_STAGE_LABEL, MICRO_STAGE_COPY, CREDITS_CAP_CAVEAT } from "../../content/stageCopy";
+import { MACRO_STAGES, MACRO_STAGE_LABEL, MACRO_STAGE_SHORT, MICRO_STAGES, MICRO_STAGE_LABEL, MICRO_STAGE_SHORT, MICRO_STAGE_COPY, CREDITS_CAP_CAVEAT } from "../../content/stageCopy";
 import { formatAcres, formatDate, formatTonnes, formatUsd } from "../../lib/format";
 
 export function FarmerStatus() {
@@ -36,7 +36,8 @@ export function FarmerStatus() {
           <h2 className="text-lg">Project status</h2>
           <StageTracker
             stageIds={[...MACRO_STAGES]}
-            labels={MACRO_STAGE_LABEL}
+            labels={MACRO_STAGE_SHORT}
+            fullLabels={MACRO_STAGE_LABEL}
             currentStage={profile.macro_stage}
             size="macro"
             selectedStage={null}
@@ -47,9 +48,12 @@ export function FarmerStatus() {
             </p>
             <StageTracker
               stageIds={[...MICRO_STAGES]}
-              labels={MICRO_STAGE_LABEL}
+              labels={MICRO_STAGE_SHORT}
+              fullLabels={MICRO_STAGE_LABEL}
               currentStage={expandedProject.micro_stage}
               size="micro"
+              copy={MICRO_STAGE_COPY}
+              showCaption={false}
             />
             <p className="mt-3 text-sm text-sand-700">{MICRO_STAGE_COPY[expandedProject.micro_stage]}</p>
           </div>

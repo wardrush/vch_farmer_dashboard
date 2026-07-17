@@ -523,6 +523,13 @@ def main(adapter_kind: str = "file"):
     samples_out_df.to_parquet(CANON_DIR / "sample_point.parquet")
     pd.DataFrame(ops_index).to_parquet(CANON_DIR / "operation_summary.parquet")
 
+    # ---- sampling planner inputs (web/public/data/sampling/) ---------------------
+    # Reads the canonical parquet + baked field geojson written above and emits
+    # per-op strata + fabricated elevation for the interactive sampling tool.
+    from pipeline import sampling_artifacts
+
+    sampling_artifacts.main()
+
     # ---- build report -----------------------------------------------------------
     report_lines.append(f"\n## Artifact sizes\n")
     total_size = 0

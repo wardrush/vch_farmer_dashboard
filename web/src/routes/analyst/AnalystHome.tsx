@@ -195,6 +195,7 @@ export function AnalystHome() {
         <div className="flex items-center justify-between">
           <h1 className="text-3xl">Growers</h1>
           <nav className="flex gap-4 text-sm font-semibold text-gold-800">
+            <Link to="/analyst/sampling" className="hover:underline">Sampling planner</Link>
             <Link to="/analyst/status-map" className="hover:underline">Status map</Link>
             <Link to="/analyst/qa" className="hover:underline">QA</Link>
           </nav>
